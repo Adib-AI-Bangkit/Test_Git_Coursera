@@ -3,7 +3,7 @@ import os
 import sys
 
 def check_reboot():
-    """Return True if the computer has a pending reboot."""
+    """Return True if the computer has a pending reboot.""" #Swadikap
     return os.path.exists("/run/reboot-required")
 def main():
     if check_reboot():
